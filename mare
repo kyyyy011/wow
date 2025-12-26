@@ -48,7 +48,9 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Buying"] = true,
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
-            "Wind", "Strom", "Radiant",
+            "Wind", 
+            "Radiant",
+            "Strom", 
         },
     },
     ["Potions"] = {
