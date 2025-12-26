@@ -9,7 +9,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {Jambutttttt},
+        ["Whitelist Username"] = {"Jambutttttt"},
         ["Category Fish"] = { -- Only Select one, fill in the Category Fish or Fish Name
             "Secret",
         },
@@ -117,7 +117,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Creater Island"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Crater Island"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
     },
 
@@ -130,5 +130,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["HideGUI"] = false,
     ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()```
 }
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
