@@ -38,7 +38,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discord.com/api/webhooks/1428850996880347197/OMj4F36SkV2R6bXuaUF7fj5fhPxhIEjdHMRWsogWWQLi6-Uyo2df1k4QZTkh9Kf6quaa",
+        ["Link Webhook"] = "",
         ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
 
