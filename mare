@@ -4,6 +4,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Favorite"] = false,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
+{Name = "Ruby", Variant = "Gemstone"},
         },
         ["Auto Accept Trade"] = true,
     },
@@ -67,7 +68,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Event"] = {
-        ["Start Farm"] = false,
+        ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             ["Christmas Cave"] = false,
@@ -119,7 +120,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Crater Island"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Kohana"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
     },
 
