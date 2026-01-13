@@ -28,7 +28,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
-        ["Auto Ghostfinn Rod"] = false,
+        ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
         ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {
@@ -60,12 +60,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["Totems"] = {
-        ["Auto Use"] = false,
+        ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
-            "Luck Totem",
-            "Mutation Totem",
-            "Shiny Totem",
+          "Mutation Totem",
+            
         },
     },
     ["Event"] = {
@@ -126,12 +125,12 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = false,
+    ["UltimatePerformance"] = true,
+    ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
-    ["HideGUI"] = false,
+    ["HideGUI"] = true,
     ["Debug"] = false,
     ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
