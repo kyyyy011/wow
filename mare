@@ -108,7 +108,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Rod List"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Buy List"] = {
             "Grass Rod",
             "Midnight Rod",
