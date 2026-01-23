@@ -63,7 +63,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Astral Rod",
     },
     ["Totems"] = {
-        ["Auto Use"] = false,
+        ["Auto Use"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Buy List"] = {
           "Mutation Totem",
@@ -102,9 +102,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Buy List"] = {
-            "Midnight Bait",
             "Chroma Bait",
             "Corrupt Bait",
             "Aether Bait",
@@ -113,7 +112,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Rod List"] = {
         ["Auto Buying"] = true,
         ["Buy List"] = {
-            "Grass Rod",
             "Midnight Rod",
             "Astral Rod",
             "Ares Rod",
@@ -123,12 +121,12 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Treasure Room"] = {"Element Rod", "Ghostfinn Rod"},
+            ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod"},
         },
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
+    ["UltimatePerformance"] = true,
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
