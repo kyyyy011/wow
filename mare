@@ -13,7 +13,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"corihood"},
+        ["Whitelist Username"] = {"Jambutttttt"},
         ["Category Fish"] = {
              "Secret", 
         },
@@ -52,11 +52,11 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Starter Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "https://discordapp.com/api/webhooks/1450405549710512231/DuZptFEUxdF1S8d2YQr0nObqR-Xds8FRlauJw7NDC17FkciYLK2_7ypRSGvxZD8gJ0ZP",
+        ["Link Webhook"] = "",
         ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
 
-        ["Link Webhook Quest Complete"] = "https://discordapp.com/api/webhooks/1456486312067465381/d1ODZibqSn564Lc0gxgAOOLHLgu9FLIr6Qa84R3hR5Z-FkQnMo75o8mZADAJtnBSyXSC",
+        ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
         ["Auto Buying"] = true,
