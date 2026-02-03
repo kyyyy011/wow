@@ -3,9 +3,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Perfect"] = true,
         ["Auto Favorite"] = true,
         ["Fish Name"] = {
-            "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
-            {Variant = "Leviathan's Rage"},
         },
         ["Auto Accept Trade"] = true,
     },
@@ -16,9 +14,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Secret",
         },
         ["Fish Name"] = {
-         {Name = "Ruby", Variant = "Gemstone"},
-         {Variant = "Leviathan's Rage"},
-        },
+            {Name = "Ruby", Variant = "Gemstone"},
     },
     ["Farm Coin Only"] = {
         ["Enabled"] = false, -- Farm coins only [ cant buy rod, bait, enchant, weather ]
