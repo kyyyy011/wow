@@ -8,8 +8,8 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Accept Trade"] = true,
     },
     ["Auto Trade"] = {
-        ["Enabled"] = false,
-        ["Whitelist Username"] = {""},
+        ["Enabled"] = true,
+        ["Whitelist Username"] = {"Jambutttttt"},
         ["Category Fish"] = { 
             "Secret",
         },
