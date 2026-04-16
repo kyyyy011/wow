@@ -129,3 +129,4 @@ _G.FishItConfig = _G.FishItConfig or {
     ["AutoReconnect"] = true,
     ["HideGUI"] = false,
 }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/list/refs/heads/main/game"))()
