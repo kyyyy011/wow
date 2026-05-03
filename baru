@@ -36,7 +36,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
-        ["Unlock Ancient Ruin"] = true,
+        ["Unlock Ancient Ruin"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -112,11 +112,11 @@ _G.FishItConfig = _G.FishItConfig or {
             "Angler Rod",
         },
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location 
-            ["Ancient Ruin"] = {"Starter Rod"},
-            ["Ancient Ruin"] = {"Grass Rod", "Midnight Rod"},
-            ["Ancient Ruin"] = {"Astral Rod"},
-            ["Ancient Ruin"] = {"Ghostfinn Rod"},
-            ["Ancient Ruin"] = {"Element Rod"},
+            ["Underwater City"] = {"Starter Rod"},
+            ["Underwater City"] = {"Grass Rod", "Midnight Rod"},
+            ["Underwater City"] = {"Astral Rod"},
+            ["Underwater City"] = {"Ghostfinn Rod"},
+            ["Underwater City"] = {"Element Rod"},
         },
         ["Endgame"] = "Element Rod",
     },
