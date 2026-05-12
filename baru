@@ -11,7 +11,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"Jambutttttt"},
+        ["Whitelist Username"] = {"tiredbusyy"},
         ["Category Fish"] = {
             "Secret",
         },
@@ -30,7 +30,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Selling"] = {
         ["Auto Sell"] = true,
-        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
