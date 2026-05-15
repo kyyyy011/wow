@@ -116,14 +116,14 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Underwater City"] = {"Starter Rod"},
             ["Underwater City"] = {"Grass Rod", "Midnight Rod"},
             ["Underwater City"] = {"Astral Rod"},
-            ["Underwater City"] = {"Ghostfinn Rod"},
-            ["Underwater City"] = {"Element Rod"},
+            ["Underwater City"] = {"Astral Rod"},
+            ["Underwater City"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
-        ["Endgame"] = "Element Rod",
+        ["Endgame"] = "",
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = true,
+    ["UltimatePerformance"] = false,
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
