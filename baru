@@ -117,7 +117,7 @@ _G.FishItConfig = _G.FishItConfig or {
             ["Underwater City"] = {"Grass Rod", "Midnight Rod"},
             ["Underwater City"] = {"Astral Rod"},
             ["Underwater City"] = {"Ghostfinn Rod"},
-            ["Underwater City"] = {"Element Rod"},
+            ["Underwater City"] = {"Element Rod", "Ghostfinn Rod",},
         },
         ["Endgame"] = "Element Rod",
     },
