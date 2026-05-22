@@ -89,7 +89,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
-        ["Roll Enchant"] = true, -- Roll enchant until get Cursed I
+        ["Roll Enchant"] = false, -- Roll enchant until get Cursed I
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Enchant List"] = {
             "Cursed I",
