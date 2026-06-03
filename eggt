@@ -12,7 +12,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Auto Trade"] = {
         ["Enabled"] = true,
-        ["Whitelist Username"] = {"tiredbusyy_2", "tiredbusyy_3", "tiredbusyy_4", "tiredbusyy_5"},
+        ["Whitelist Username"] = {"tiredbusyy_2", "tiredbusyy_3", "tiredbusyy_4", "tiredbusyy_5", "tiredbusyy_6", "tiredbusyy_7"},
         ["Category Fish"] = {
             "Secret",
         },
