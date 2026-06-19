@@ -14,11 +14,10 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Enabled"] = true,
         ["Whitelist Username"] = {"tiredbusyy", "tiredbusyy_2", "tiredbusyy_3", "tiredbusyy_4", "tiredbusyy_5", "tiredbusyy_6", "tiredbusyy_7", "tiredbusyy_8"},
         ["Category Fish"] = {
-            "Secret",
         },
         ["Fish Name"] = {
-            "Sacred Guardian Squid",
             {Name = "Ruby", Variant = "Gemstone"},
+            "Megalodon",
         },
         ["Item Name"] = {
             "Eggy Enchant Stone",
