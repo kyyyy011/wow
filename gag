@@ -69,7 +69,6 @@ _G.GAGConfig = _G.GAGConfig or {
         ["FPS Cap"]      = 5,    -- frame rate cap = ALSO the farm's logic/movement rate, so LOW = slow + choppy farm
         ["Low Graphics"] = true,   -- drop render quality to the minimum (textures/shadows/effects) — saves GPU & memory.
         ["Remove Other Gardens"] = true,   -- (needs Low Graphics on) delete OTHER players' gardens locally = big memory save, but you won't see neighbors. false = keep them visible.
-        ["Hide Crop Visuals"] = true,     -- make YOUR OWN plants invisible — the biggest GPU saver when you watch the bot (they still grow + get harvested normally, you just won't see them). great for weak PCs. false = see your crop.
     },
 }
 
