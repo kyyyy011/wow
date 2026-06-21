@@ -86,14 +86,14 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = true,
-        ["Roll Enchant"] = true,
+        ["Auto Enchant"] = false,
+        ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = false,
         ["Farm Until Enchant"] = false,
         ["Enchant List"] = {
             "Cursed I",    
         },
-        ["Second Enchant"] = true,
+        ["Second Enchant"] = false,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
