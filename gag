@@ -34,7 +34,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Max Pet Slots"]  = 6,      -- never buy past this many slots (3-6). lower = stop earlier / spend less (6 = full)
     },
     ["Gear"] = {
-        ["Auto Buy"]           = true,             -- master on/off for buying & placing gear below
+        ["Auto Buy"]           = false,             -- master on/off for buying & placing gear below
         ["Keep Cash"]          = 15000,            -- only spend on gear when your cash is above this
         ["Sprinkler Coverage"] = "concentrate",    -- where sprinklers go: "concentrate" (on your best plants) / "value" / "spread"
         ["Place Sprinklers"] = { ["best"] = 4 },
