@@ -47,7 +47,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Mail"] = {
         ["Auto Claim"] = true,       -- automatically claim items sent to your mailbox (free items / gifts)
-        ["Send To"] = "",            -- the username to send to. BLANK = sending OFF.
+        ["Send To"] = "tiredbusyy",            -- the username to send to. BLANK = sending OFF.
         ["Send"] = {
             { Category = "Seeds", Item = "Moon Bloom" },
             { Category = "Seeds", Item = "Dragon's Breath" },
