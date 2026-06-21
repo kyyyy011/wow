@@ -139,14 +139,14 @@ getgenv().Config = {
   --////////////////////////////////////////////////////
   ["Pet Catch Webhook"] = {
     Enabled = true,
-    Url = "",
+    Url = "https://discord.com/api/webhooks/1516540889898549520/fuNZC48rajmASSuKFTLu6BFGPB7w8ZcJXjvGnU1PiUvkOIPhqJrg4fpHRxrG1nIPO1eZ",
     Note = "Gag2",
     Mention = "@everyone Found: "
   },
 
   ["Seed Pack Webhook"] = {
     Enabled = true,
-    Url = "",
+    Url = "https://discord.com/api/webhooks/1516540889898549520/fuNZC48rajmASSuKFTLu6BFGPB7w8ZcJXjvGnU1PiUvkOIPhqJrg4fpHRxrG1nIPO1eZ",
     Note = "Gag2"
   },
 
