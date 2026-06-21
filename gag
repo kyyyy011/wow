@@ -73,6 +73,4 @@ _G.GAGConfig = _G.GAGConfig or {
     },
 }
 
-script_key="ADF01433DFE2BFDF890F8F1553DA5903"
-
 local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
