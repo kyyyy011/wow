@@ -71,5 +71,3 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Remove Other Gardens"] = true,   -- (needs Low Graphics on) delete OTHER players' gardens locally = big memory save, but you won't see neighbors. false = keep them visible.
     },
 }
-
-local s,r repeat s,r=pcall(function()return game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/gag-obfuscated.lua")end)wait(1)until s;loadstring(r)()
