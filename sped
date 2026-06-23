@@ -7,8 +7,8 @@ getgenv().Config = {
     ["Auto Plant"] = true, -- automatically plants seeds based on Seeds To Plant
     ["Auto Sell"] = true, -- auto sells harvested fruits after timer / capacity
     ["Auto Buy Seed"] = true, -- buys seeds from shop automatically
-    ["Auto Buy Gear"] = true, -- buys tools like sprinklers, cans, etc
-    ["Auto Use Gear"] = true -- automatically equips/uses bought gear
+    ["Auto Buy Gear"] = false, -- buys tools like sprinklers, cans, etc
+    ["Auto Use Gear"] = false -- automatically equips/uses bought gear
   },
 
   ["Auto Expand Garden"] = true, -- expands plot when conditions are met
@@ -28,11 +28,11 @@ getgenv().Config = {
   -- SECONDARY SYSTEMS (PET / UTILITY / QUALITY OF LIFE)
   --////////////////////////////////////////////////////
   ["Other Features"] = {
-    ["Auto Shovel"] = true, -- removes unwanted plants automatically
+    ["Auto Shovel"] = false, -- removes unwanted plants automatically
     ["Auto Catch Pet"] = true, -- auto catches new pets spawned in world
-    ["Auto Equip Pets"] = true, -- equips best pets automatically
+    ["Auto Equip Pets"] = false, -- equips best pets automatically
     ["Auto Optimize Pets"] = true, -- optimizes pet stats/loadout
-    ["Auto Upgrade Pet Slots"] = true, -- increases pet capacity automatically
+    ["Auto Upgrade Pet Slots"] = false, -- increases pet capacity automatically
     ["Auto Tutorial"] = true -- skips or completes tutorial steps
   },
 
