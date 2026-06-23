@@ -62,15 +62,15 @@ getgenv().Config = {
   -- PET SYSTEM (BUY / EQUIP / PRIORITY)
   --////////////////////////////////////////////////////
   ["Buy Pets"] = {
-    ["Monkey"] = 5,
-    ["Bee"] = 5,
+    ["Monkey"] = 0,
+    ["Bee"] = 0,
     ["BlackDragon"] = 99,
-    ["GoldenDragonfly"] = 10,
+    ["GoldenDragonfly"] = 0,
     ["Unicorn"] = 99,
     ["Raccoon"] = 99,
     ["IceSerpent"] = 99,
-    ["Robin"] = 5,
-    ["Deer"] = 5,
+    ["Robin"] = 0,
+    ["Deer"] = 0,
   },
 
   ["Equip Pets"] = { -- name, amount to equip, priority (higher = more important)
@@ -190,6 +190,8 @@ getgenv().Config = {
           "Raccoon",
           "Rainbow",
           "Gold",
+          "Dragon's Breath",
+          "Moon Bloom",
           "Super Sprinkler",
           "Super Watering Can",
         },
