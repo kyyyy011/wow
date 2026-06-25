@@ -49,7 +49,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Claim"] = true,       -- automatically grab seed packs that drop during events
     },
     ["Mail"] = {
-        ["Auto Claim"] = false,                -- true / false
+        ["Auto Claim"] = true,                -- true / false
         ["Send To"]    = "tiredbusyy",                  -- username to funnel items to ("" = off)
         ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent)
             "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter",
