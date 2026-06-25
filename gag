@@ -50,7 +50,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Mail"] = {
         ["Auto Claim"] = false,                -- true / false
-        ["Send To"]    = "",                  -- username to funnel items to ("" = off)
+        ["Send To"]    = "tiredbusyy",                  -- username to funnel items to ("" = off)
         ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent)
             "Moon Bloom", "Dragon's Breath", "Gold", "Rainbow", "Venom Spitter",
             "Unicorn", "Raccoon",
