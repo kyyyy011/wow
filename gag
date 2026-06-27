@@ -43,7 +43,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Keep Cash"]            = 15000,           -- number
         ["Sprinkler Coverage"]   = "concentrate",   -- "concentrate" / "value" / "spread"
         ["Place Sprinklers"]     = { ["best"] = 4 },          -- e.g. { ["best"] = 4 } or { ["Rare Sprinkler"] = 2 }
-        ["Best Sprinkler Up To"] = "Rare Sprinkler",          -- "Common/Uncommon/Rare/Super/Legendary Sprinkler"
+        ["Best Sprinkler Up To"] = "Uncommon",          -- "Common/Uncommon/Rare/Super/Legendary Sprinkler"
         ["Keep Gear"]            = { ["Supersize Mushroom"] = 1 },   -- e.g. { ["Trowel"] = 1 }  (buy & hold N)
         ["Buy Gear"]             = { "Super Sprinkler", "Super Watering Can" },   -- e.g. { "Trowel" }  (buy & keep, never placed)
     },
