@@ -9,12 +9,12 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Planting"] = {
         ["Auto Plant"]  = true,               -- true / false  (false = never buy/plant; also stops expand/replace)
-        ["Plant Plan"]  = {},                 -- e.g. { Apple = 50, ["Dragon Fruit"] = 20 }  (keep N planted, then auto-fill)
+        ["Plant Plan"]  = { "Strawberry" = 10, ["Bamboo"] = 200, ["Mushroom"] = 200 }            -- e.g. { Apple = 50, ["Dragon Fruit"] = 20 }  (keep N planted, then auto-fill)
         ["Only Plant"]  = {},                 -- e.g. { "Bamboo", "Apple" }  (plant ONLY these)
         ["Minimum Seed"] = "",                -- e.g. "Bamboo"  (never BUY/PLANT a seed cheaper than this tier — stops it filling with Carrot/Strawberry/Blueberry junk. "" = no floor, fill with anything)
         ["Layout"]      = "compact",          -- "compact" / "spread"
         ["Don't Plant"] = { "Rainbow", "Gold", "Mega", "Dragon's Breath", "Moon Bloom", "Venom Spitter" },                 -- e.g. { "Carrot", "Green Bean" }
-        ["Don't Buy"]   = { "Strawberry", "Blueberry", "Tulip", "Tomato", "Apple", "Corn", "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry", "Sun Flower"},                 -- e.g. { "Mango", "Coconut" }
+        ["Don't Buy"]   = { "Blueberry", "Tulip", "Tomato", "Apple", "Corn", "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry", "Sun Flower"},                 -- e.g. { "Mango", "Coconut" }
         ["Keep Seeds"]  = {                   -- e.g. { ["Moon Bloom"] = 5, Gold = 15 }  (keep N UNPLANTED)
             ["Dragon's Breath"] = 50, ["Moon Bloom"] = 50, ["Venom Spitter"] = 50,
             ["Gold"] = 50, ["Rainbow"] = 50, ["Mega"] = 50,
@@ -22,7 +22,7 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Money"] = {
         ["Keep Cash"]          = 15000,    -- always keep at least this much money
-        ["Auto Expand Plot"]   = true,     -- buy plot expansions automatically
+        ["Auto Expand Plot"]   = false,     -- buy plot expansions automatically
         ["Max Expansions"]     = 3,        -- cap how many expansions to auto-BUY this run. 0 = no limit; default 3 = stop after 3 (raise for a bigger plot)
         ["Expand If Over"]     = 1500000,  -- only spend on an expansion when your cash is above this
         ["Auto Replace Plants"] = false,    -- when the plot is full, dig up low-value plants and plant better ones
