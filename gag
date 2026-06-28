@@ -39,7 +39,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Max Pet Slots"]  = 4,               -- number 3..6
     },
     ["Gear"] = {
-        ["Auto Buy"]             = true,            -- true / false
+        ["Auto Buy"]             = false,            -- true / false
         ["Keep Cash"]            = 15000,           -- number
         ["Sprinkler Coverage"]   = "concentrate",   -- "concentrate" / "value" / "spread"
         ["Place Sprinklers"]     = { ["best"] = 4 },          -- e.g. { ["best"] = 4 } or { ["Rare Sprinkler"] = 2 }
