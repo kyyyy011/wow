@@ -59,7 +59,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent) { Item = "Gold", Count = 10 },
             "Moon Bloom", "Dragon's Breath", "Rainbow", "Mega", "Hypno Bloom", { Item = "Gold", Count = 20 }, { Item = "Carrot", Count = 500 },
             "Unicorn", "Raccoon",
-            "Super Sprinkler", "Legendary Sprinkler", "Super Watering Can",
+            "Super Sprinkler", "Super Watering Can",
         },
     },
     ["Misc"] = {
