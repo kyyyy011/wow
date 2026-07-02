@@ -13,19 +13,22 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Only Plant"]  = {},                 -- e.g. { "Bamboo", "Apple" }  (plant ONLY these)
         ["Minimum Seed"] = "",                -- e.g. "Bamboo"  (never BUY/PLANT a seed cheaper than this tier — stops it filling with Carrot/Strawberry/Blueberry junk. "" = no floor, fill with anything)
         ["Layout"]      = "compact",          -- "compact" / "spread"
-        ["Don't Plant"] = { "Rainbow", "Gold", "Mega", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Venom Spitter" },                 -- e.g. { "Carrot", "Green Bean" }
-        ["Don't Buy"]   = { "Strawberry", "Blueberry", "Tulip", "Tomato", "Apple", "Corn", "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry" },                 -- e.g. { "Mango", "Coconut" }
+        ["Don't Plant"] = { "Carrot", "Rainbow", "Mega", "Dragon's Breath", "Moon Bloom", "Hypno Bloom", "Strawberry", "Blueberry", "Tomato", "Apple", "Corn" },                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry" } 
+        ["Don't Buy"]   = { "Strawberry", "Blueberry", "Tulip", "Tomato", "Apple", "Corn" },                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango" }
         ["Keep Seeds"]  = {                   -- e.g. { ["Moon Bloom"] = 5, Gold = 15 }  (keep N UNPLANTED)
-            ["Dragon's Breath"] = 5, ["Moon Bloom"] = 5, ["Hypno Bloom"] = 5, ["Venom Spitter"] = 5,
-            ["Gold"] = 20, ["Rainbow"] = 20, ["Mega"] = 20,
+            ["Dragon's Breath"] = 5, ["Moon Bloom"] = 5, ["Venom Spitter"] = 5,
+            ["Gold"] = 2, ["Rainbow"] = 5, ["Mega"] = 5, ["Carrot"] = 200
         },
+        ["Plant Limit"] = 100,                  -- number (0 = off). Cap TOTAL plants at this: never plant past it, AND if you're ALREADY over (e.g. 800), shovel the lowest-tier plants DOWN to it to cut lag / stop the game force-closing. Set ~200. Never shovels mutated (Gold/Rainbow/Mega), Mega-size, Plant-Plan or never-sell plants.
+        ["Never Shovel"] = {},                -- e.g. { "Dragon Fruit", "Mango" }  (extra plants the Plant Limit shovel must NEVER remove — for your high-tier crops)
+        ["Shovel Up To"] = "Epic",                -- e.g. "Rare"  (a RARITY TIER — Common/Uncommon/Rare/Epic — removes ONLY that tier and below. "" = no extra ceiling. LEGENDARY/Mythic/Super are ALWAYS protected regardless. Single-harvest crops are HARVESTED when ripe, never shoveled — no wasted fruit)
     },
     ["Money"] = {
         ["Keep Cash"]          = 15000,    -- always keep at least this much money
         ["Auto Expand Plot"]   = false,     -- buy plot expansions automatically
         ["Max Expansions"]     = 3,        -- cap how many expansions to auto-BUY this run. 0 = no limit; default 3 = stop after 3 (raise for a bigger plot)
         ["Expand If Over"]     = 1500000,  -- only spend on an expansion when your cash is above this
-        ["Auto Replace Plants"] = false,    -- when the plot is full, dig up low-value plants and plant better ones
+        ["Auto Replace Plants"] = true,    -- when the plot is full, dig up low-value plants and plant better ones
     },
     ["Never Sell"] = {                        -- protect fruit from being sold
         ["By Mutation"] = {},                 -- e.g. { "Rainbow", "Gold" }
@@ -40,12 +43,12 @@ _G.GAGConfig = _G.GAGConfig or {
     },
     ["Gear"] = {
         ["Auto Buy"]             = true,            -- true / false
-        ["Keep Cash"]            = 150000,           -- number
+        ["Keep Cash"]            = 15000,           -- number
         ["Sprinkler Coverage"]   = "concentrate",   -- "concentrate" / "value" / "spread"
         ["Place Sprinklers"]     = { ["best"] = 4 },          -- e.g. { ["best"] = 4 } or { ["Rare Sprinkler"] = 2 }
-        ["Best Sprinkler Up To"] = "Common Sprinkler",          -- "Common/Uncommon/Rare/Super/Legendary Sprinkler"
-        ["Keep Gear"]            = { ["Super Sprinkler"] = 10, ["Super Watering Can"] = 10 },   -- e.g. { ["Trowel"] = 1 }  (buy & hold N)
-        ["Buy Gear"]             = { "Super Sprinkler", "Super Watering Can" },   -- e.g. { "Trowel" }  (buy & keep, never placed)
+        ["Best Sprinkler Up To"] = "Uncommon Sprinkler",          -- "Common/Uncommon/Rare/Super/Legendary Sprinkler"
+        ["Keep Gear"]            = { ["Supersize Mushroom"] = 1 },   -- e.g. { ["Trowel"] = 1 }  (buy & hold N)
+        ["Buy Gear"]             = { "Super Sprinkler", "Super Watering Can", "Legendary Sprinkler" },   -- e.g. { "Trowel" }  (buy & keep, never placed)
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,       -- automatically grab seed packs that drop during events
@@ -53,8 +56,8 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Mail"] = {
         ["Auto Claim"] = true,                -- true / false
         ["Send To"]    = "tiredbusyy",                  -- username to funnel items to ("" = off)
-        ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent)
-            "Moon Bloom", "Dragon's Breath", { Item = "Gold", Count = 10 }, "Rainbow", "Mega", "Venom Spitter",
+        ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent) { Item = "Gold", Count = 10 },
+            "Moon Bloom", "Dragon's Breath", "Rainbow", "Mega", "Hypno Bloom", { Item = "Gold", Count = 20 }, { Item = "Carrot", Count = 200 },
             "Unicorn", "Raccoon",
             "Super Sprinkler", "Legendary Sprinkler", "Super Watering Can",
         },
