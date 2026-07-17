@@ -23,7 +23,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Never Shovel"] = {},                -- e.g. { "Dragon Fruit", "Mango" }  (extra plants the Plant Limit shovel must NEVER remove — for your high-tier crops)
         ["Shovel Up To"] = "Epic",                -- e.g. "Rare"  (a RARITY TIER — Common/Uncommon/Rare/Epic — removes ONLY that tier and below. "" = no extra ceiling. LEGENDARY/Mythic/Super are ALWAYS protected regardless. Single-harvest crops are HARVESTED when ripe, never shoveled — no wasted fruit)
         ["Buy Seeds"]    = {
-            ["Bamboo"] = 9999
+            ["Bamboo"] = 9999,
             ["Venus Fly Trap"] = 3,
             ["Pomegranate"] = 3,
             ["Poison Apple"] = 3,
