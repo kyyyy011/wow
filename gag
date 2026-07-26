@@ -24,10 +24,6 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Shovel Up To"] = "Mythic",                -- e.g. "Rare"  (a RARITY TIER — Common/Uncommon/Rare/Epic — removes ONLY that tier and below. "" = no extra ceiling. LEGENDARY/Mythic/Super are ALWAYS protected regardless. Single-harvest crops are HARVESTED when ripe, never shoveled — no wasted fruit)
         ["Shovel Mutated"] = { "Gold", "Rainbow" },
         ["Buy Seeds"]    = {
-            ["Venus Fly Trap"] = 10,
-            ["Pomegranate"] = 10,
-            ["Poison Apple"] = 10,
-            ["Venom Spitter"] = 10,
             ["Star Fruit"] = 3,
         },                -- MAP seed = number. buy & HOLD N of each for MAILING (not planted). EACH SEED NEEDS A NUMBER -> just "Dragon's Breath" is WRONG. e.g. { ["Bamboo"] = 500, ["Dragon's Breath"] = 10 }. Any SHOP seed (incl. Moon Bloom / Dragon's Breath when stocked); Gold/Rainbow/Mega can't be bought. Buys ANYTHING in stock it can afford, cheapest first — IGNORES Keep Cash (will spend down to 0 to stock mail seeds). Runs even with Auto Plant = false. (If a seed is ALSO in Plant Plan / Only Plant it STILL gets planted too — plant intent wins.)
     },
