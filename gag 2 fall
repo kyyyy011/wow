@@ -70,7 +70,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Claim"] = true,                -- true / false
         ["Send To"]    = "tiredbusyy",                  -- username to funnel items to ("" = off)
         ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent) { Item = "Gold", Count = 10 },
-            { Item = "Rainbow", Count = 10 }, { Item = "Mega", Count = 10 }, { Item = "Gold", Count = 20 }, { Item = "Maple Bamboo", Count = 500 }, { Item = "Maple Mushroom", Count = 500 },
+            "Amber Cranberry", { Item = "Rainbow", Count = 10 }, { Item = "Mega", Count = 10 }, { Item = "Gold", Count = 20 }, { Item = "Maple Bamboo", Count = 500 }, { Item = "Maple Mushroom", Count = 500 },
             "Shadow Dragon",
             "Super Syrup Sprinkler", { Item = "Super Syrup Watering Can", Count = 3 },
         },
