@@ -10,7 +10,7 @@ _G.GAGConfig = _G.GAGConfig or {
     ["Planting"] = {
         ["Auto Plant"]  = true,               -- true / false  (false = never buy/plant; also stops expand/replace)
         ["Plant Plan"]  = {},                 -- e.g. { Apple = 50, ["Dragon Fruit"] = 20 }  (keep N planted, then auto-fill)
-        ["Only Plant"]  = { "Maple Carrot", "Gold" }                 -- e.g. { "Bamboo", "Apple" }  (plant ONLY these)
+        ["Only Plant"]  = { "Maple Carrot" },               -- e.g. { "Bamboo", "Apple" }  (plant ONLY these)
         ["Minimum Seed"] = "",                -- e.g. "Bamboo"  (never BUY/PLANT a seed cheaper than this tier — stops it filling with Carrot/Strawberry/Blueberry junk. "" = no floor, fill with anything)
         ["Layout"]      = "compact",          -- "compact" / "spread"
         ["Don't Plant"] = {},                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry" } 
@@ -21,19 +21,20 @@ _G.GAGConfig = _G.GAGConfig or {
         },
         ["Plant Limit"] = 30,                  -- number (0 = off). Cap TOTAL plants at this: never plant past it, AND if you're ALREADY over (e.g. 800), shovel the lowest-tier plants DOWN to it to cut lag / stop the game force-closing. Set ~200. Never shovels mutated (Gold/Rainbow/Mega), Mega-size, Plant-Plan or never-sell plants.
         ["Never Shovel"] = {},                -- e.g. { "Dragon Fruit", "Mango" }  (extra plants the Plant Limit shovel must NEVER remove — for your high-tier crops)
-        ["Shovel Up To"] = "Epic",                -- e.g. "Rare"  (a RARITY TIER — Common/Uncommon/Rare/Epic — removes ONLY that tier and below. "" = no extra ceiling. LEGENDARY/Mythic/Super are ALWAYS protected regardless. Single-harvest crops are HARVESTED when ripe, never shoveled — no wasted fruit)
+        ["Shovel Up To"] = "",                -- e.g. "Rare"  (a RARITY TIER — Common/Uncommon/Rare/Epic — removes ONLY that tier and below. "" = no extra ceiling. LEGENDARY/Mythic/Super are ALWAYS protected regardless. Single-harvest crops are HARVESTED when ripe, never shoveled — no wasted fruit)
         ["Shovel Mutated"] = true,
         ["Buy Seeds"]    = {
-            ["Maple Carrot"] = 9999,
-            ["Maple Bamboo"] = 9999,
-            ["Maple Mushroom"] = 9999,
-            ["Atlantic Giant Pumpkin"] = 9999,
-            ["Maple Venus Flay Trap"] = 200,
-            ["Maple Pomegranate"] = 200,
-            ["Maple Poison Apple"] = 200,
-            ["Maple Venom Spitter"] = 200,
-            ["Conifer Cone"] = 200,
+            ["Maple Carrot"] = 20,
+            ["Maple Bamboo"] = 20,
+            ["Maple Mushroom"] = 20,
+            ["Atlantic Giant Pumpkin"] = 20,
+            ["Maple Venus Flay Trap"] = 20,
+            ["Maple Pomegranate"] = 20,
+            ["Maple Poison Apple"] = 20,
+            ["Maple Venom Spitter"] = 20,
+            ["Conifer Cone"] = 20,
             ["Amber Cranberry"] = 10,
+            ["Romanesco"] = 20,
         },                -- MAP seed = number. buy & HOLD N of each for MAILING (not planted). EACH SEED NEEDS A NUMBER -> just "Dragon's Breath" is WRONG. e.g. { ["Bamboo"] = 500, ["Dragon's Breath"] = 10 }. Any SHOP seed (incl. Moon Bloom / Dragon's Breath when stocked); Gold/Rainbow/Mega can't be bought. Buys ANYTHING in stock it can afford, cheapest first — IGNORES Keep Cash (will spend down to 0 to stock mail seeds). Runs even with Auto Plant = false. (If a seed is ALSO in Plant Plan / Only Plant it STILL gets planted too — plant intent wins.)
     },
     ["Money"] = {
@@ -60,8 +61,8 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Sprinkler Coverage"]   = "concentrate",   -- "concentrate" / "value" / "spread"
         ["Place Sprinklers"]     = { ["best"] = 4 },          -- e.g. { ["best"] = 4 } or { ["Rare Sprinkler"] = 2 }
         ["Best Sprinkler Up To"] = "Syrup Sprinkler",          -- "Common/Uncommon/Rare/Super/Legendary Sprinkler"
-        ["Keep Gear"]            = {},   -- e.g. { ["Trowel"] = 1 }  (buy & hold N)
-        ["Buy Gear"]             = { "Super Syrup Sprinkler", "Super Syrup Watering Can", "Trowel" },   -- e.g. { "Trowel" }  (buy & keep, never placed)
+        ["Keep Gear"]            = { ["Trowel"] = 9999 },   -- e.g. { ["Trowel"] = 1 }  (buy & hold N)
+        ["Buy Gear"]             = { "Super Syrup Sprinkler", "Super Syrup Watering Can" },   -- e.g. { "Trowel" }  (buy & keep, never placed)
     },
     ["Event Seeds"] = {
         ["Auto Claim"] = true,       -- automatically grab seed packs that drop during events
@@ -70,7 +71,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Claim"] = true,                -- true / false
         ["Send To"]    = "tiredbusyy",                  -- username to funnel items to ("" = off)
         ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent) { Item = "Gold", Count = 10 },
-            "Amber Cranberry", { Item = "Rainbow", Count = 10 }, { Item = "Mega", Count = 10 }, { Item = "Gold", Count = 20 }, { Item = "Maple Bamboo", Count = 500 }, { Item = "Maple Mushroom", Count = 500 },
+            "Amber Cranberry", { Item = "Rainbow", Count = 10 }, { Item = "Mega", Count = 10 }, { Item = "Gold", Count = 20 }, { Item = "Maple Bamboo", Count = 500 }, { Item = "Maple Mushroom", Count = 500 }, { Item = "Romanesco", Count = 20 },
             "Shadow Dragon",
             "Super Syrup Sprinkler", { Item = "Super Syrup Watering Can", Count = 3 },
         },
