@@ -13,7 +13,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Only Plant"]  = { "Maple Carrot", "Gold" },                 -- e.g. { "Bamboo", "Apple" }  (plant ONLY these)
         ["Minimum Seed"] = "",                -- e.g. "Bamboo"  (never BUY/PLANT a seed cheaper than this tier — stops it filling with Carrot/Strawberry/Blueberry junk. "" = no floor, fill with anything)
         ["Layout"]      = "compact",          -- "compact" / "spread"
-        ["Don't Plant"] = { "" },                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry" } 
+        ["Don't Plant"] = {},                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry" } 
         ["Don't Buy"]   = {},                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango" }
         ["Keep Seeds"]  = {                   -- e.g. { ["Moon Bloom"] = 5, Gold = 15 }  (keep N UNPLANTED)
             ["Amber Cranberry"] = 3, ["Maple Bamboo"] = 500, ["Maple Mushroom"] = 500,
@@ -72,7 +72,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent) { Item = "Gold", Count = 10 },
             { Item = "Rainbow", Count = 10 }, { Item = "Mega", Count = 10 }, { Item = "Gold", Count = 20 }, { Item = "Maple Bamboo", Count = 500 }, { Item = "Maple Mushroom", Count = 500 },
             "Shadow Dragon",
-            "Super Syrup Sprinkler", { Item = "Super Watering Can", Count = 3 },
+            "Super Syrup Sprinkler", { Item = "Super Syrup Watering Can", Count = 3 },
         },
     },
     ["Misc"] = {
