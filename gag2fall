@@ -16,7 +16,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Don't Plant"] = {},                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry" } 
         ["Don't Buy"]   = {},                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango" }
         ["Keep Seeds"]  = {                   -- e.g. { ["Moon Bloom"] = 5, Gold = 15 }  (keep N UNPLANTED)
-            ["Amber Cranberry"] = 3, ["Maple Bamboo"] = 500, ["Maple Mushroom"] = 500,
+            ["Amber Cranberry"] = 3, ["Maple Bamboo"] = 500, ["Maple Mushroom"] = 500, ["Romanesco"] = 20,
             ["Gold"] = 10, ["Rainbow"] = 10, ["Mega"] = 10,  
         },
         ["Plant Limit"] = 30,                  -- number (0 = off). Cap TOTAL plants at this: never plant past it, AND if you're ALREADY over (e.g. 800), shovel the lowest-tier plants DOWN to it to cut lag / stop the game force-closing. Set ~200. Never shovels mutated (Gold/Rainbow/Mega), Mega-size, Plant-Plan or never-sell plants.
