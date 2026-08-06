@@ -16,8 +16,8 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Don't Plant"] = {},                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango", "Dragon Fruit", "Acorn", "Cherry" } 
         ["Don't Buy"]   = {},                 -- e.g. { "Cactus", "Pineapple", "Green Bean", "Banana", "Grape", "Coconut", "Mango" }
         ["Keep Seeds"]  = {                   -- e.g. { ["Moon Bloom"] = 5, Gold = 15 }  (keep N UNPLANTED)
-            ["Amber Cranberry"] = 3, ["Maple Mushroom"] = 20, ["Maple Bamboo"] = 1000, ["Romanesco"] = 20,
-            ["Gold"] = 10, ["Rainbow"] = 10, ["Mega"] = 10,  
+            ["Amber Cranberry"] = 3, ["Atlantic Giant Pumpkin"] = 10, ["Romanesco"] = 20,
+            ["Rainbow"] = 10, ["Mega"] = 10,  
         },
         ["Plant Limit"] = 30,                  -- number (0 = off). Cap TOTAL plants at this: never plant past it, AND if you're ALREADY over (e.g. 800), shovel the lowest-tier plants DOWN to it to cut lag / stop the game force-closing. Set ~200. Never shovels mutated (Gold/Rainbow/Mega), Mega-size, Plant-Plan or never-sell plants.
         ["Never Shovel"] = {},                -- e.g. { "Dragon Fruit", "Mango" }  (extra plants the Plant Limit shovel must NEVER remove — for your high-tier crops)
@@ -28,8 +28,6 @@ _G.GAGConfig = _G.GAGConfig or {
             ["Maple Blueberry"] = 20,
             ["Maple Tulip"] = 20,
             ["Maple Tomato"] = 20,
-            ["Maple Bamboo"] = 9999,
-            ["Maple Mushroom"] = 9999,
             ["Atlantic Giant Pumpkin"] = 9999,
             ["Maple Venus Fly Trap"] = 50,
             ["Maple Pomegranate"] = 50,
@@ -73,7 +71,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Auto Claim"] = true,                -- true / false
         ["Send To"]    = "tiredbusyy",                  -- username to funnel items to ("" = off)
         ["Send"]       = {                    -- e.g. { "Gold", "Deer", { Item = "Deer", Count = 5 } }  (equipped pets never sent) { Item = "Gold", Count = 10 },
-            "Amber Cranberry", { Item = "Rainbow", Count = 10 }, { Item = "Mega", Count = 10 }, { Item = "Gold", Count = 20 }, { Item = "Maple Bamboo", Count = 1000 }, { Item = "Maple Mushroom", Count = 20 }, { Item = "Atlantic Giant Pumpkin", Count = 5 },
+            "Amber Cranberry", { Item = "Rainbow", Count = 10 }, { Item = "Mega", Count = 10 }, { Item = "Gold", Count = 20 }, { Item = "Atlantic Giant Pumpkin", Count = 10 },
             "Shadow Dragon", { Item = "Fox", Count = 5 }, { Item = "Swan", Count = 5 }, { Item = "Wolf", Count = 5 },
             "Super Syrup Sprinkler", { Item = "Super Syrup Watering Can", Count = 3 },
         },
