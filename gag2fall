@@ -50,7 +50,7 @@ _G.GAGConfig = _G.GAGConfig or {
         ["Exact"]       = {},                 -- e.g. { { fruit = "Carrot", mut = "Gold" } }
     },
     ["Pets"] = {
-        ["Buy"]            = { "Shadow Dragon", "Fox", "Swan", "Wolf" },   -- list = tame UNLIMITED; OR caps { Robin = 6, Deer = 6 } = stop once you OWN N of that species; mix ok { "Unicorn", Deer = 6 }
+        ["Buy"]            = { "Shadow Dragon" },   -- list = tame UNLIMITED; OR caps { Robin = 6, Deer = 6 } = stop once you OWN N of that species; mix ok { "Unicorn", Deer = 6 }
         ["Equip"]          = { Fox = 3 },    -- e.g. { Deer = 4, Unicorn = 1 }  (name = how many)
         ["Auto Buy Slots"] = false,            -- true / false
         ["Max Pet Slots"]  = 4,               -- number 3..6
