@@ -8,7 +8,7 @@ _G.FishItConfig = _G.FishItConfig or {
             {Name = "Ruby", Variant = "Gemstone"},
         },
         ["Auto Accept Trade"] = true,
-	      ["Trade Timeout"] = 40,
+	    ["Trade Timeout"] = 40,
         ["Auto Friend Request"] = false,
 
 	      ["Auto Egg Exchange"] = false,
@@ -109,7 +109,7 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
+        ["Auto Enchant"] = true,
         ["Roll Enchant"] = false,
         ["Evolved Roll Enchant"] = false,
         ["Enchant After X Stone"] = 30,
@@ -161,7 +161,8 @@ _G.FishItConfig = _G.FishItConfig or {
             "Astral Rod",
         },
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location 
-            ["Sisyphus Statue"] = {"Starter Rod", "Luck Rod", "Grass Rod", "Midnight Rod", "Astral Rod"},
+            ["Sisyphus Statue"] = {"Starter Rod", "Luck Rod", "Grass Rod", "Astral Rod"},
+            ["Treasure Room"] = {"Midnight Rod"},
             ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
 			["Copper Canyon"] = {"Diamond Rod"},
         },
