@@ -161,8 +161,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Astral Rod",
         },
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location 
-            ["Sisyphus Statue"] = {"Starter Rod", "Luck Rod", "Grass Rod", "Astral Rod"},
-            ["Treasure Room"] = {"Midnight Rod"},
+            ["Sisyphus Statue"] = {"Starter Rod", "Luck Rod", "Grass Rod", "Midnight Rod", "Astral Rod"},
             ["Ancient Ruin"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
 			["Copper Canyon"] = {"Diamond Rod"},
         },
